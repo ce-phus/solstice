@@ -102,11 +102,12 @@ const Footer = () => {
               <div>
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Nairobi , Upper Hill</p>
+                  <p>ABC Place, Waiyaki Way,
+                    The Island</p>
                 </div>
                 <div className="flex items-center gap-3 mt-6">
                   <FaMobileAlt />
-                  <p>+254 734899765</p>
+                  <p>+254 723 393 114</p>
                 </div>
 
                 {/* social links */}

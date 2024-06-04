@@ -8,6 +8,8 @@ import Partners from "./Partners";
 import Blogs from "./Blogs";
 import Heading from "./Heading";
 import Footer from "./Footer";
+import Statistics from "./Statistics";
+import Testimonial from "./Testimonial";
 
 export {
     Navbar,
@@ -19,5 +21,7 @@ export {
     Partners,
     Blogs,
     Heading,
-    Footer
+    Footer,
+    Statistics,
+    Testimonial
 }

@@ -26,6 +26,12 @@ import partner2 from "./partner6.png"
 import partner3 from "./partner7.png"
 import partner4 from "./partner8.png"
 import partner5 from "./partner9.png"
+import tft from "./TFT1.jpg"
+import statistics1 from "./Our-Statistics-img1.png"
+import statistics2 from "./Our-Statistics-img-2.png"
+import statistics3 from "./Our-Statistics-img-3.png"
+import statistics4 from "./Our-Statistics-img4.png"
+import boss from "./boss.png"
 
 export {
     cloud,
@@ -55,5 +61,11 @@ export {
     partner2,
     partner3,
     partner4,
-    partner5
+    partner5,
+    tft,
+    statistics1,
+    statistics2,
+    statistics3,
+    statistics4,
+    boss,
 }
