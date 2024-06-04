@@ -48,9 +48,7 @@ const Footer = () => {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
               alias cum
             </p>
-            <p className="text-gray-500 mt-4">
-              Made with 💖 by Cephus
-            </p>
+    
             <a
               href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ"
               target="_blank"

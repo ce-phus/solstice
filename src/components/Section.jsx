@@ -16,7 +16,7 @@ const Section = () => {
                 src={service1}
                 alt='service1'
                 className='w-9 mb-5'/>
-                <h2 className='font-bold text-xl mb-5'>Network Security</h2>
+                <h2 className='font-bold text-xl mb-5'>Network/Cyber Security</h2>
                 <p className='font-medium tracking-wide text-secondary mb-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat arem nulla pariatur.</p>
                 <img 
                 src={rightArrow}
@@ -28,7 +28,7 @@ const Section = () => {
                 src={service2}
                 alt='service2'
                 className='w-9 mb-5'/>
-                <h2 className='font-bold text-xl mb-5'>Database Security</h2>
+                <h2 className='font-bold text-xl mb-5'>IT Services</h2>
                 <p className='font-medium tracking-wide text-secondary mb-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat arem nulla pariatur.</p>
                 <img 
                 src={rightArrow}
@@ -40,7 +40,7 @@ const Section = () => {
                 src={service3}
                 alt='service3'
                 className='w-9 mb-5'/>
-                <h2 className='font-bold text-xl mb-5'>Web Security</h2>
+                <h2 className='font-bold text-xl mb-5'>IT Consulting</h2>
                 <p className='font-medium tracking-wide text-secondary mb-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat arem nulla pariatur.</p>
                 <img 
                 src={rightArrow}
@@ -76,7 +76,7 @@ const Section = () => {
                 src={service6}
                 alt='service1'
                 className='w-9 mb-5'/>
-                <h2 className='font-bold text-xl mb-5'>Cloud Security</h2>
+                <h2 className='font-bold text-xl mb-5'>Cloud Solutions</h2>
                 <p className='font-medium tracking-wide text-secondary mb-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat arem nulla pariatur.</p>
                 <img 
                 src={rightArrow}
