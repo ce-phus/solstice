@@ -110,9 +110,9 @@ const AboutPage = () => {
             alt='tft1'
             className='w-full h-[800px]'/>
           </div>
-          <div className='mt-10 md:mt-20'>
+          <div className='mt-10 md:mt-20 mx-3'>
             <div className='flex flex-col '>
-              <h1 className='text-4xl font-bold tracking-wide mt-6 mb-3'>Background Information</h1>
+              <h1 className='text-4xl font-bold tracking-wide mt-6 mb-3 '>Background Information</h1>
               <h1 className='text-accent font-bold'>2017</h1>
               <h1 className='text-2xl font-bold tracking-wide mt-6 mb-3'>Founding Year</h1>
               <p className='tracking-wide text-ls mt-5 mx-3 md:mx-0 md:w-3/4 mb-3'>Since our founding in 2017, we have established ourselves as a trusted provider of comprehensive IT solutions and services to businesses across a diverse range of industries. From the engineering and healthcare sectors to the energy and marketing/advertising industries, our team of experts has consistently delivered innovative and tailored solutions that streamline operations, enhance productivity, and safeguard our clients' critical data and infrastructure. With a steadfast commitment to customer success, we continue to expand our reach and impact throughout Kenya and the broader East African region.</p>

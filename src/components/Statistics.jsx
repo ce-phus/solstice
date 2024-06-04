@@ -5,10 +5,11 @@ const Statistics = () => {
   return (
     <>
         <div className='flex items-center justify-center'>
-            <div className='flex flex-col items-center'>
+            <div className='flex flex-col items-center justify-center'>
                 <h1 className='text-grade text-lg tracking-wide mb-5'>Our Statistics</h1>
+                <h1 className='text-5xl font-bold text-primary tracking-wide flex items-center ml-4 justify-center'>Some of Our Achievements</h1>
                 <div>
-                <h1 className='text-5xl font-bold text-primary tracking-wide'>Some of Our Achievements</h1>
+                
                 </div>
             </div>
         </div>
