@@ -10,7 +10,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} exact />
-          <Route path='/AboutPage' element={<AboutPage />} exact />
+          <Route path='/about' element={<AboutPage />} exact />
           <Route path='/services' element={<Service />} exact />
           <Route path='/contact' element={<Contact />} exact />
 
