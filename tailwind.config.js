@@ -24,6 +24,7 @@ module.exports = {
         "hero-pattern": "url('/src/assets/hero1.jpg')",
         "hero-section": "url('/src/assets/herobg.png')",
         "hero-about": "url('/src/assets/about.jpg')",
+        "hero-cloud": "url('/src/assets/service7.jpg')",
       },
     },
   },

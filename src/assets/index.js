@@ -32,6 +32,18 @@ import statistics2 from "./Our-Statistics-img-2.png"
 import statistics3 from "./Our-Statistics-img-3.png"
 import statistics4 from "./Our-Statistics-img4.png"
 import boss from "./boss.png"
+import icon1 from "./05.png"
+import icon2 from "./07.png"
+import icon3 from "./08.png"
+import icon4 from "./09.png"
+import service7 from "./service.jpg"
+import service8 from "./service2.jpg"
+import service9 from "./service3.jpg"
+import service10 from "./service6.png"
+import service11 from "./service7.jpg"
+import service12 from "./service8.jpg"
+import slider from "./slider23.png"
+import slider1 from "./slider24.png"
 
 export {
     cloud,
@@ -68,4 +80,16 @@ export {
     statistics3,
     statistics4,
     boss,
+    icon1,
+    icon2,
+    icon3,
+    icon4,
+    service10,
+    service11,
+    service12,
+    service7,
+    service8,
+    service9,
+    slider,
+    slider1
 }
