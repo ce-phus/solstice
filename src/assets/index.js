@@ -44,6 +44,10 @@ import service11 from "./service7.jpg"
 import service12 from "./service8.jpg"
 import slider from "./slider23.png"
 import slider1 from "./slider24.png"
+import itservices from "./itservices.jpg"
+import itservices2 from "./itservices2.jpg"
+import itservices3 from "./itservices3.jpg"
+import itservices4 from "./itservices4.jpg"
 
 export {
     cloud,
@@ -91,5 +95,9 @@ export {
     service8,
     service9,
     slider,
-    slider1
+    slider1,
+    itservices,
+    itservices2,
+    itservices3,
+    itservices4
 }
