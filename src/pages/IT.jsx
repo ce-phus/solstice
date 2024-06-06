@@ -1,9 +1,8 @@
 import React from 'react'
-import { service7, itservices3, itservices4, statistics1, statistics2, statistics3, statistics4 } from '../assets'
+import { itservices3, itservices4,  statistics2, statistics4, icon2, icon3, icon4, circle  } from '../assets'
 import { styles } from '../styles'
 import { TiTickOutline } from "react-icons/ti";
 import { Link } from 'react-router-dom';
-import { banner, circle } from '../assets';
 import { Blogs, Footer, Partners } from '../components';
 
 const IT = () => {
@@ -139,24 +138,16 @@ const IT = () => {
         <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-center justify-center pt-20 mb-10'>
             <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-9 px-12 hover:bg-gray-400'>
                 <img
-                src={statistics1}
+                src={icon2}
                 alt='statistics1'
                 className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-5 py-5 rounded-full mb-5'/>
                 <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>Wasting Time and Money</h2>
                 <p className='text-secondary text-xl hover:text-white'>We'll find the appropriate technology solutions for your business</p>
             </div>
-            <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-12 px-12 hover:bg-gray-400'>
-                <img
-                src={statistics4}
-                alt='statistics1'
-                className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-4 py-5 rounded-full mb-5'/>
-                <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
-                Secure Your Tech Future</h2>
-                <p className='text-secondary text-xl hover:text-white'>Our planning ensures peace of mind.</p>
-            </div>
+            
             <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
                 <img
-                src={statistics3}
+                src={icon3}
                 alt='statistics1'
                 className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-5 py-4 rounded-full mb-5'/>
                 <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
@@ -165,7 +156,7 @@ const IT = () => {
             </div>
             <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
                 <img
-                src={statistics4}
+                src={icon4}
                 alt='statistics1'
                 className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-4 py-5 rounded-full mb-5'/>
                 <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
@@ -180,6 +171,15 @@ const IT = () => {
                 <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
                 Ineffective Technology Strategies</h2>
                 <p className='text-secondary text-xl hover:text-white'>Our expertise ensures your strategies support company growth and agility.</p>
+            </div>
+            <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-12 px-12 hover:bg-gray-400'>
+                <img
+                src={statistics4}
+                alt='statistics1'
+                className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-4 py-5 rounded-full mb-5'/>
+                <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
+                Secure Your Tech Future</h2>
+                <p className='text-secondary text-xl hover:text-white'>Our planning ensures peace of mind.</p>
             </div>
         </div>
       </div>

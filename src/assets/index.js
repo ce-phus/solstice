@@ -48,6 +48,21 @@ import itservices from "./itservices.jpg"
 import itservices2 from "./itservices2.jpg"
 import itservices3 from "./itservices3.jpg"
 import itservices4 from "./itservices4.jpg"
+import managed1 from "./managed-it1.jpg"
+import managed2 from "./managed-it2.jpg"
+import managed3 from "./managed-it3.jpg"
+import managed4 from "./managed-it4.jpg"
+import managed5 from "./managed-it5.jpg"
+import managed6 from "./managed-it6.jpg"
+import managed7 from "./managed-it7.jpg"
+import managed8 from "./managed-it8.jpg"
+import managed9 from "./managed-it9.jpg"
+import send from "./Send.svg"
+import shield from "./Shield.svg"
+import star from "./Star.svg"
+import consult from "./consult.png"
+import execute from "./execute.png"
+import strategy from "./strategy.png"
 
 export {
     cloud,
@@ -99,5 +114,20 @@ export {
     itservices,
     itservices2,
     itservices3,
-    itservices4
+    itservices4,
+    managed1,
+    managed2,
+    managed3,
+    managed4,
+    managed5,
+    managed6,
+    managed7,
+    managed8,
+    managed9,
+    send,
+    shield,
+    star,
+    consult,
+    execute,
+    strategy,
 }

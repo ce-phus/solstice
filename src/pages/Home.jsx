@@ -14,13 +14,13 @@ const Home = () => {
           <div className=''>
             <motion.h1 
                 variants={textVariant()}
-                className={`${styles.heroHeadText} `}>Empowering Business Security with Advanced Cyber Defense</motion.h1>
+                className={`${styles.heroHeadText} `}>Welcome to Solstice Technologies Limited</motion.h1>
                 <motion.p 
                 variants={textVariant()}
-                className={`${styles.heroSubText} mt-2 text-white-200`}>We protect your company from evolving cyber threats. Trust our expertise to keep your data safe and your operations running smoothly</motion.p>
-                <div className='flex mt-5'>
+                className={`${styles.heroSubText} mt-2 text-white-200`}>Your Partner in Advanced Technology Solutions</motion.p>
+                <div className='flex flex-col md:flex-row mt-5 gap-3'>
                   <GetStarted />
-                  <Link to={"/profile.pdf"} target={'_blank'} className='bg-primary/40 text-white ml-4 flex items-center justify-center w-1/4 rounded-lg border border-white hover:bg-accent hover:text-primary mt-3 text-xl font-bold tracking-wide' download={true}>Profile</Link>
+                  <Link to={"/profile.pdf"} target={'_blank'} className='bg-white text-primary ml- flex items-center justify-center w-1/4 rounded-lg border border-white hover:bg-accent hover:text-primary hover:border-transparent mt-3 text-xl font-bold tracking-wide' download={true}>Profile</Link>
                 </div>
           </div>
           <div className='hidden md:block'>

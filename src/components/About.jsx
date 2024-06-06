@@ -49,11 +49,11 @@ const About = () => {
         <div className='flex flex-col'>
             <h1 className='text-xl font-medium tracking-wide'>About Us</h1>
             <div className='mt-5'>
-                <h1 className='text-5xl font-bold'>Provides Best Approach To Security</h1>
+                <h1 className='text-5xl font-bold'>Provides Best Tech Solutions</h1>
             </div>
             <div className='mt-5'>
                 <p className='tracking-wide  font-normal text-lg'>
-                Amet consectetur adipiscing elit adipis eleifend dictum poten mattis viverra eget quam lacus enimcing inti porttitor bibenu relit duiteri nisl areo nuam lacus.
+                At Solstice Technologies Limited, we specialize in providing comprehensive technology solutions tailored to meet the unique needs of your business. From robust cybersecurity measures to expert IT consulting, managed IT services, and cutting-edge cloud computing solutions, we ensure your business operates smoothly, securely, and efficiently.
                 </p>
             </div>
             <div className='flex flex-col cols-pan-2 items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 mt-5'>

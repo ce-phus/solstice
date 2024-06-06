@@ -47,7 +47,6 @@ const AboutPage = () => {
           <p className='mt-10 text-4xl  tracking-wide'>
           We Simplify And Streamline I.T.
           </p>
-          <a href='#' className=''></a>
         </div>
       </div>
       <div className='bg-white pt-20'>

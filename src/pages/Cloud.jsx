@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { slider1, slider, service8, aboutimg4, aboutimg5, rightArrow, service1, service2, service3, service4, service5, service6, statistics1, statistics2, statistics3, statistics4  } from '../assets'
+import { slider1, slider, service8, aboutimg4, cloud, rightArrow, service1, service2, service3, service4, service5, service6, statistics1, statistics2, statistics3, statistics4  } from '../assets'
 import { styles} from '../styles'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import { Link } from 'react-router-dom'
@@ -68,7 +68,7 @@ const Cloud = () => {
         <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-10 max-w-7xl mx-auto gap-12 text-white pt-20`}>
         <div className='relative mt-10 mb-10'>
             <img
-            src={service8} alt='aboutimage2'
+            src={cloud} alt='aboutimage2'
             className='w-full h-full'/>
             <div className='absolute -left-5 -bottom-10'>
                 <img
