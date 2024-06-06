@@ -99,14 +99,7 @@ const Navbar = () => {
                     </li>
                     <li><a className="text-sm text-gray-400 hover:text-gray-500" href="/contact">Contact</a></li>
                 </ul>
-                <div className="relative group hidden sm:block px-2">
-                    <input
-                        type="text"
-                        placeholder="Search"
-                        className="search-bar px-2"
-                    />
-                    <IoMdSearch className="text-xl text-gray-600 group-hover:text-accent absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
-                </div>
+            
             </nav>
 
             <div className={`navbar-menu relative z-50 ${isMenuOpen ? "" : "hidden"}`}>
