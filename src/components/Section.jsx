@@ -10,7 +10,7 @@ const Section = () => {
             <h2 className='text-7xl font-bold mx-3'>Solutions</h2>
         </div>
     
-        <div className='grid grid-cols-2 lg:grid-cols-3 gap-4 flex items-center justify-center pt-20 max-w-7xl mx-auto mb-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 flex items-center justify-center pt-20 max-w-7xl mx-auto mb-10'>
             <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80'>
                 <img
                 src={service1}
