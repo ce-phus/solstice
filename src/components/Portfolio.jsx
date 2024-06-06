@@ -13,7 +13,7 @@ const Portfolio = () => {
                 <img
                 src={portfolio1}
                 alt='portfolio1'
-                className='h-[400px]'/>
+                className='h-[400px] w-full'/>
                 <div className='absolute bottom-5 left-8'>
                     <p className='bg-gray-300 flex items-center justify-center w-1/4 text-grade tracking-wide mb-4'>Marketing</p>
                     <h1 className='text-white tracking-wide text-lg font-bold'>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                 <img
                 src={portfolio2}
                 alt='portfolio2'
-                className='h-[400px]'/>
+                className='h-[400px] w-full'/>
                 <div className='absolute bottom-5 left-8'>
                     <p className='bg-gray-300 flex items-center justify-center w-1/4 text-grade tracking-wide mb-4'>Business</p>
                     <h1 className='text-white tracking-wide text-lg font-bold'>
