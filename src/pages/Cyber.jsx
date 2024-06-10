@@ -20,15 +20,19 @@ const Cyber = () => {
             <img
             src={icon1}
             className='w-full h-[500px]'/>
+            
           </div>
+          <div className='absolute z-[60] w-[40%] h-[35%] top-0 pink__gradient'/>
+        <div className='absolute z-[70] w-[30%] h-[80%] top-0 white__gradient'/>
+        <div className='absolute z-[50] w-[50%] h-[50%] top-0 blue__gradient'/>
         </div>
       </div>
 
-      <div className='bg-white pt-20 pb-10'>
-          <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-20 max-w-7xl mx-auto gap-5`}>
+      <div className='pt-20 pb-10 text-white'>
+          <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2  pb-20 max-w-7xl mx-auto gap-5`}>
             <div className='flex flex-col mt-20'>
                 <h1 className='text-grade text-lg tracking wide font-bold'>Our Services</h1>
-                <h1 className='text-4xl font-bold tracking wide mt-3'>What You Get from Cybersecurity Services</h1>
+                <h1 className='text-4xl font-bold tracking wide mt-3 text-white'>What You Get from Cybersecurity Services</h1>
                 <p className='text-secondary font-medium tracking-wide text-lg mt-5'>
                 Cybercriminals can infiltrate your business and access your data if your IT system and network are left unprotected. Our solutions include:
                 </p>
@@ -73,7 +77,8 @@ const Cyber = () => {
         </div>
       </div>
 
-      <div className='pt-20 pb-10 text-primary bg-white'>
+      <div className='pt-20 pb-10 '>
+      <div className='absolute z-[70] w-[30%] h-[80%]  white__gradient'/>
         <div className='flex flex-col items-center justify-center  grid grid-cols-1 md:grid-cols-2 gap-5 mx-5'>
           <div className="">
             <h1 className='text-4xl font-bold tracking-wide mb-5'>Common Cyber Threats to Your Business</h1>
@@ -177,7 +182,7 @@ const Cyber = () => {
         </div>
       </div>
 
-      <div className='bg-tertiary/40 pt-20 pb-20'>
+      <div className='pt-20 pb-20'>
         <div className='flex items-center justify-center max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5'>
           <div className='flex flex-col'>
             <h1 className='text-grade text-lg tracking wide font-bold'>How It's Done</h1>
@@ -306,14 +311,14 @@ const Cyber = () => {
           </div>
         </div>
       </div>
-      <div className='bg-hero-pattern bg-scroll min-h-[500px]'>
+      <div className='bg-scroll min-h-[500px]'>
         <div className='flex items-center justify-center pt-20 flex-col '>
           <h1 className='text-3xl font-bold tracking-wide md:mb-10'>Industries that Benefit from Cybersecurity Solutions</h1>
           <p className='text-7xl mx-4 md:w-3/4'>"As businesses move to the digital landscape, cybercriminals gain more access. Protect your business with our cybersecurity solutions."</p>
         </div>
       </div>
 
-      <div className='bg-white pt-20 pb-10 flex flex-col text-primary '>
+      <div className='pt-20 pb-10 flex flex-col'>
         <div className='flex items-center justify-center '>
           <h1 className='text-5xl font-bold tracking-wide'>Cyber Security Services FAQs</h1>
         </div>
@@ -363,7 +368,7 @@ const Cyber = () => {
       </div>
 
       <Partners />
-      <div className='bg-white pt-20 pb-10'>
+      <div className='pt-20 pb-10'>
         <Blogs />
       </div>
       <Footer />

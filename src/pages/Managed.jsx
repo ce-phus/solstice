@@ -38,8 +38,9 @@ const Managed = () => {
         </div>
       </div>
 
-      <div className='bg-white pt-20 pb-10'>
-        <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-10 max-w-7xl mx-auto gap-10`}>
+      <div className=' pt-20 pb-10'>
+      <div className='absolute z-[1] w-[80%] h-[30%]  blue__gradient'/>
+        <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-white pb-10 max-w-7xl mx-auto gap-10`}>
         <div className='flex flex-col'>
                 <h1 className='text-grade text-lg tracking wide font-bold'>Why Choose Us</h1>
                 <h1 className='text-4xl font-bold tracking wide mt-3'>Expert Managed IT Services to Boost Productivity and Efficiency</h1>
@@ -77,7 +78,8 @@ const Managed = () => {
         </div>
       </div>
 
-      <div className='bg-tertiary/40 pt-20 pb-20'>
+      <div className=' pt-20 pb-20'>
+      <div className='absolute z-[1] w-[20%] -left-0 h-[30%] white__gradient'/>
         <div className='flex items-center justify-center max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5'>
           <div className='flex flex-col'>
             <h1 className='text-grade text-lg tracking wide font-bold'>Services Provided</h1>
@@ -121,7 +123,7 @@ const Managed = () => {
         </div>
       </div>
 
-      <div className='bg-white pb'>
+      <div className=''>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
           <div className='w-full'>
             <img
@@ -130,7 +132,7 @@ const Managed = () => {
             alt='managed-it'/>
           </div>
           <div className='mt-10 md:mt-20 mx-3'>
-            <div className='flex flex-col text-primary'>
+            <div className='flex flex-col text-white'>
             <h1 className='text-4xl font-bold tracking-wide mt-6 mb-3 '>Don't Be Left Out !</h1>
               <h1 className='text-accent font-bold'>""</h1>
               <h1 className='text-2xl font-bold tracking-wide mt-6 mb-3'>Benefits of Our Managed IT Services</h1>
@@ -157,28 +159,28 @@ const Managed = () => {
         </div>
       </div>
 
-      <div className='pt-20 bg-white pb-20'>
+      <div className='pt-20 pb-20'>
         <div>
           <Heading title="Managed IT Services FAQs" subtitle={"What is a managed IT service?"}/>
 
           <div className={`${styles.paddingX} grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 flex items-center justify-center pt-20 max-w-7xl mx-auto`}>
             {Data.map((data) => (
-              <div className='bg-white '>
+              <div className='bg-whit '>
                 <div className='overflow-hidden rounded-2xl  mb-2'>
                   <img
                   src={data.image}
                   className='w-full h-[220px] object-cover rounded-2xl hover:scale-105 duration-500'/>
                 </div>
                 <div className="space-y-2 mx-2">
-                <p className="text-xs text-gray-500">{data.published}</p>
-                <p className="font-bold line-clamp-1 text-primary">{data.title}</p>
+                <p className="text-xs">{data.published}</p>
+                <p className="font-bold line-clamp-1">{data.title}</p>
                 <p className=" text-sm text-gray-600">
                   {data.subtitle}
                 </p>
                 <img
                 src={rightArrow}
                 alt="rightarrow"
-                className="bg-primary px-2 py-3 rounded-full w-[30px] hover:bg-gray-500 hover:scale-105 duration-500"/>
+                className="bg-tertiary px-2 py-3 rounded-full w-[30px] hover:bg-gray-500 hover:scale-105 duration-500"/>
               </div>
               </div>
             ))}
@@ -187,7 +189,7 @@ const Managed = () => {
       </div>
 
       <Partners />
-      <div className='pt-20 pb-10 bg-white'>
+      <div className='pt-20 pb-10'>
         <Blogs />
       </div>
       <Footer />

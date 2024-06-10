@@ -1,9 +1,8 @@
 import React, { useEffect, useRef } from 'react'
-import { section1, aboutimg4 } from '../assets'
+import { section1, aboutimg4, header1 } from '../assets'
 import { styles } from '../styles'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { tft } from '../assets'
 import { TiTickOutline } from "react-icons/ti";
 import { Blogs, Footer, Partners, Statistics, Testimonial } from '../components'
 
@@ -49,21 +48,26 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
-      <div className='bg-white pt-20'>
+      <div className='bg-whit pt-20'>
+      <div className='absolute z-[1] w-[80%] h-[30%]  white__gradient'/>
         <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-10 max-w-7xl mx-auto gap-10`}>
           <div className='flex flex-col'>
               <div className='mt-5'>
-                  <h1 className='text-5xl font-bold'>Why We Exist ?</h1>
+                  <h1 className='text-5xl font-bold text-white'>Why We Exist ?</h1>
               </div>
-              <div className='mt-5'>
+              <div className='mt-5 text-white'>
                   <p className='tracking-wide  font-normal text-lg'>
                   Your business runs on IT systems. Every now and then, you run into technical hitches that could possibly stall operations. We are here to take care of I.T. and streamline the process so you don't have to.
                   </p>
+                  <p className='mt-3 text-lg'>It is all about YOU. We architect, implement,
+                    manage and secure IT solutions that
+                    maximize the value of technology geared
+                    towards adding value to your business</p>
               </div>
               
-              <div className='flex flex-col cols-pan-2 items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 mt-5'>
+              <div className='flex flex-col cols-pan-2 items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 mt-5 text-white'>
                 
-                  <div className='flex flex-col items-end justify-center xl:items-center'>
+                  <div className='flex flex-col items-end justify-center xl:items-center text-white'>
                       <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                           <AnimatedNumber value={50}/>+
                       </span>
@@ -87,9 +91,9 @@ const AboutPage = () => {
                 <div>
                 <Link to={"/profile.pdf"} target={'_blank'} className='  flex items-center justify-center w-1/2 px-3 py-4 border border-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:text-primary mt-7 mb-5 text-xl font-bold tracking-wide hover:scale-105 duration-500' download={true}>Learn More</Link>
                 </div>
-              <h1 className='text-lg font-bold tracking-wide'>Industries Served</h1>
+              <h1 className='text-lg font-bold tracking-wide text-white'>Industries Served</h1>
           </div>
-          <div className='relative mt-10 mb-10'>
+          <div className='relative mt-10 mb-10 ml-10'>
               <img
               src={section1} alt='aboutimage2'
               className='h-[500px]'/>
@@ -104,12 +108,13 @@ const AboutPage = () => {
       
       <div className='bg-primary'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-          <div className='w-full'>
-            <img src={tft}
+          <div className='flex items-center justify-center'>
+            <img src={header1}
             alt='tft1'
-            className='w-full h-[800px]'/>
+            className=''/>
           </div>
           <div className='mt-10 md:mt-20 mx-3'>
+          <div className='absolute z-[0] w-[20%] h-[50%]  blue__gradient'/>
             <div className='flex flex-col '>
               <h1 className='text-4xl font-bold tracking-wide mt-6 mb-3 '>Background Information</h1>
               <h1 className='text-accent font-bold'>2017</h1>
@@ -142,16 +147,16 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <div className='pt-20 bg-white pb-10'>
+      <div className='pt-20  pb-10'>
         <Statistics />
       </div>
-      <div className='pt-20 bg-gray-200 pb-10'>
+      <div className='pt-20 pb-10'>
         <Testimonial />
       </div>
       <div>
         <Partners/>
       </div>
-      <div className='bg-white pb-10'>
+      <div className='pb-10'>
       <Blogs/>
       </div>
       <Footer/>

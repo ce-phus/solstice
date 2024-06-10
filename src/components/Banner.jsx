@@ -6,7 +6,9 @@ import { banner, circle } from '../assets';
 
 const Banner = () => {
   return (
-    <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-20 max-w-7xl mx-auto gap-5`}>
+    <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-20 max-w-7xl mx-auto gap-5 text-white`}>
+        <div className='absolute z-[3] -left-1/2  w-[50%] h-[50%] rounded-full white__gradient'/>
+        
         <div className='flex flex-col'>
             <h1 className='text-grade text-lg tracking wide font-bold'>Why Choose Us</h1>
             <h1 className='text-4xl font-bold tracking wide mt-3'>The Solstice Advantage</h1>

@@ -16,7 +16,7 @@ const Section = () => {
                 src={service1}
                 alt='service1'
                 className='w-9 mb-5'/>
-                <h2 className='font-bold text-xl mb-5'>Network/Cyber Security</h2>
+                <h2 className='font-bold text-xl mb-5'>Cyber Security</h2>
                 <p className='font-medium tracking-wide text-secondary mb-5'>Protect your IT infrastructure and business data with top-notch cybersecurity services. Our expert team offers complete protection against all cyber threats, safeguarding your valuable information and maintaining your business's credibility. We provide ongoing threat monitoring, immediate action against risks, and 24/7 protection to keep your operations secure..</p>
                 <img 
                 src={rightArrow}
@@ -42,30 +42,6 @@ const Section = () => {
                 className='w-9 mb-5'/>
                 <h2 className='font-bold text-xl mb-5'>IT Consulting</h2>
                 <p className='font-medium tracking-wide text-secondary mb-5'>Secure your company’s future with our expert IT consulting services. We help you navigate the complexities of technology development, from implementing new business software to migrating to the cloud. Our experienced consultants provide honest advice and tailored solutions that align with your goals and budget, ensuring you make informed decisions that drive growth and adaptability.</p>
-                <img 
-                src={rightArrow}
-                alt='rightArrow'
-                className='w-15 border border-white py-4 px-4 rounded-full hover:scale-105 duration-500 hover:bg-gray-300'/>
-            </div>
-            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80'>
-                <img
-                src={service4}
-                alt='service1'
-                className='w-9 mb-5'/>
-                <h2 className='font-bold text-xl mb-5'>Locker Security</h2>
-                <p className='font-medium tracking-wide text-secondary mb-5'>Enhance your physical and digital security with our advanced locker security solutions. Our systems are designed to protect your valuable assets, whether they are physical items or digital data stored on secure hardware. With robust access control, real-time monitoring, and advanced encryption, our locker security solutions provide peace of mind that your assets are always protected.</p>
-                <img 
-                src={rightArrow}
-                alt='rightArrow'
-                className='w-15 border border-white py-4 px-4 rounded-full hover:scale-105 duration-500 hover:bg-gray-300'/>
-            </div>
-            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80'>
-                <img
-                src={service5}
-                alt='service1'
-                className='w-9 mb-5'/>
-                <h2 className='font-bold text-xl mb-5'>Data Security</h2>
-                <p className='font-medium tracking-wide text-secondary mb-5'>Safeguard your business data with our comprehensive data security services. We implement stringent security measures to protect sensitive information from unauthorized access, breaches, and loss. Our services include data encryption, secure backups, access control, and compliance with industry standards to ensure your data remains confidential, integral, and available.</p>
                 <img 
                 src={rightArrow}
                 alt='rightArrow'

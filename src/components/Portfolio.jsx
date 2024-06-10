@@ -4,7 +4,7 @@ import { portfolio1, portfolio2, portfolio3, rightArrow } from '../assets'
 const Portfolio = () => {
   return (
     <>
-        <div className='pt-20 flex items-center justify-center flex-col text-primary'>
+        <div className='pt-20 flex items-center justify-center flex-col text-primary text-white'>
             <h1 className='text-grade text-lg tracking-wide font-bold mb-5'>Portfolio</h1>
             <h2 className='text-6xl font-bold mx-3'>Our Latest Case Studies</h2>
         </div>

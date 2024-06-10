@@ -35,7 +35,8 @@ const AnimatedNumber = ({value})=>{
   }
 const About = () => {
   return (
-    <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-10 max-w-7xl mx-auto gap-5`}>
+    <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-10 max-w-7xl mx-auto gap-5 text-white`}>
+      <div className='absolute z-[3] -left-1/2  w-[50%] h-[20%] rounded-full white__gradient'/>
         <div className='relative mt-10 mb-10'>
             <img
             src={aboutimg5} alt='aboutimage2'

@@ -38,7 +38,7 @@ const Cloud = () => {
   return (
     <>
     
-    <div className='relative bg-hero-cloud bg-cover min-h-[800px]'>
+    <div className='relative bg-cover min-h-[800px]'>
         <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 absolute inset-0 top-[120px] gap-10`}>
             <div className=''>
                 <h1 className={`${styles.heroHeadText} `}>Cloud Computing Solutions for Businesses</h1>
@@ -61,7 +61,11 @@ const Cloud = () => {
                 </div>
                 <div className='absolute bottom-0 right-0 hover:animate-pulse'>
                     <img src={slider}/>
+
                 </div>
+                <div className='absolute z-[60] w-[40%] h-[35%] top-0 pink__gradient'/>
+      <div className='absolute z-[1] w-[70%] h-[80%] top-0 white__gradient'/>
+      <div className='absolute z-[0] w-[50%] h-[50%] top-0 blue__gradient'/>
           </div>
         </div>
     </div>
@@ -112,7 +116,7 @@ const Cloud = () => {
             </div>
         </div>
     </div>
-    <div className='pt-20  bg-white pb-10'>
+    <div className='pt-20 pb-10'>
         <Statistics />
     </div>
     <div className='pt-20 md:flex items-center justify-center flex-col'>
@@ -195,56 +199,56 @@ const Cloud = () => {
                 className='w-15 border border-white py-4 px-4 rounded-full hover:scale-105 duration-500 hover:bg-gray-300'/>
             </div>
         </div>
-        <div className='bg-white pt-20 pb-10'>
+        <div className='pt-20 pb-10'>
         <div className='flex items-center justify-center'>
             <div className='flex flex-col items-center justify-center'>
-                <h1 className='text-4xl font-bold text-primary tracking-wide flex items-center ml-4 justify-center md:w-1/2'>With Business Cloud Services from Solstice Technologies Limited, You Can Stop Worrying About:</h1>
+                <h1 className='text-4xl font-bold  tracking-wide flex items-center ml-4 justify-center md:w-1/2'>With Business Cloud Services from Solstice Technologies Limited, You Can Stop Worrying About:</h1>
                 <div>
                 
                 </div>
             </div>
         </div>
         
-    <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-center justify-center pt-20 mb-10 justify-evenly'>
-        <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-center justify-center pt-20 mb-10 justify-evenly'>
+        <div className='border border-gray-800 shadow flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400 rounded-lg'>
             <img
             src={statistics1}
             alt='statistics1'
             className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-5 py-5 rounded-full mb-5'/>
-            <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>Constant Updates and New Purchases</h2>
+            <h2 className='text-3xl font-bold tracking-wide mb-3'>Constant Updates and New Purchases</h2>
             <p className='text-secondary text-xl '>The cloud updates and improves itself, saving you time and money.</p>
         </div>
-        <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-10 px-12 hover:bg-gray-400'>
+        <div className='border border-gray-800 shadow flex flex-col items-center min-h-[280px] py-10 px-12 hover:bg-gray-400 rounded-lg'>
             <img
             src={statistics2}
             alt='statistics1'
             className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-5 py-5 rounded-full mb-5'/>
-            <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
+            <h2 className='text-3xl font-bold tracking-wide mb-3'>
             Data Loss</h2>
             <p className='text-secondary text-xl '>Your information is securely stored in hardened, geo-redundant data centers.</p>
         </div>
-        <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-10 px-12 hover:bg-gray-400'>
+        <div className='border border-gray-800 shadow flex flex-col items-center min-h-[280px] py-10 px-12 hover:bg-gray-400 rounded-lg'>
             <img
             src={statistics3}
             alt='statistics1'
             className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-5 py-4 rounded-full mb-5'/>
-            <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
+            <h2 className='text-3xl font-bold tracking-wide mb-3'>
             Being Office-Bound:</h2>
             <p className='text-secondary text-xl '>Access your network and files from anywhere with an internet connection.</p>
         </div>
-        <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
+        <div className='border border-gray-800 shadow flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400 rounded-lg'>
             <img
             src={statistics4}
             alt='statistics1'
-            className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-4 py-5 rounded-full mb-5'/>
-            <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
+            className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w-[60px] px-4 py-5 rounded-full mb-5'/>
+            <h2 className='text-3xl font-bold tracking-wide mb-3'>
             Finding the Right Solution: </h2>
             <p className='text-secondary text-xl'>Our experts will custom-build and implement a cloud solution tailored to your needs.</p>
         </div>
     </div>
     </div>
     <Partners />
-    <div className='bg-white pt-20 pb-10'>
+    <div className='pt-20 pb-10'>
         <Blogs />
     </div>
     <Footer />

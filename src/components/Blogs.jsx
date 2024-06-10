@@ -30,7 +30,7 @@ const BlogData = [
 ];
 const Blogs = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-20 text-white">
       <div className="">
         {/* Header section */}
         <Heading title="Recent News" subtitle={"Explore Our Blogs"} />
@@ -40,7 +40,7 @@ const Blogs = () => {
           {/* Blog card */}
           {BlogData.map((data) => (
             <div
-              className="bg-white"
+              className=""
             >
               {/* image section */}
               <div className="overflow-hidden rounded-2xl mb-2">
@@ -53,7 +53,7 @@ const Blogs = () => {
               {/* content section */}
               <div className="space-y-2">
                 <p className="text-xs text-gray-500">{data.published}</p>
-                <p className="font-bold line-clamp-1 text-primary">{data.title}</p>
+                <p className="font-bold line-clamp-1 text-white">{data.title}</p>
                 <p className="line-clamp-2 text-sm text-gray-600">
                   {data.subtitle}
                 </p>

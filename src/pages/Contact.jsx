@@ -52,29 +52,29 @@ const Contact = () => {
     })
   }
   return (
-    <div className={`${styles.paddingX} bg-white pt-20 pb-10 flex flex-col text-primary`}>
+    <div className={`${styles.paddingX} pt-20 pb-10 flex flex-col text-`}>
       <h1 className='text-primary font-bold text-5xl'>How can We help you?</h1>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-10 pb-10 gap-7'>
-        <div className='flex flex-col border border-gray-300 shadow rounded-lg gap-y-4 pt-10'>
+        <div className='flex flex-col border border-gray-700 shadow rounded-lg gap-y-4 pt-10'>
           <h1 className='text-2xl font-bold ml-5'>Cybersecurity Services</h1>
           <p className='ml-5 text-lg text-blue-700'>Basic Plan: Essential protection for small businesses.</p>
           <p className='ml-5 text-lg text-blue-700'>Standard Plan: Advanced security features for medium-sized businesses.</p>
           <p className='ml-5 text-lg text-blue-700'>Flowbite plans & prices</p>
           <p className='ml-5 text-lg text-blue-700 mb-10'>Premium Plan: Comprehensive security solutions for large enterprises.</p>
         </div>
-        <div className='flex flex-col border border-gray-300 shadow rounded-lg gap-y-4 pt-10'>
+        <div className='flex flex-col border border-gray-700 shadow rounded-lg gap-y-4 pt-10'>
           <h1 className='text-2xl font-bold ml-5'>Managed IT Services</h1>
           <p className='ml-5 text-lg text-blue-700'>Starter Package: Basic IT support and management.</p>
           <p className='ml-5 text-lg text-blue-700'>Professional Package: Enhanced IT services including proactive monitoring.</p>
           <p className='ml-5 text-lg text-blue-700'>Enterprise Package: Full-scale IT management for large organizations.</p>
         </div>
-        <div className='flex flex-col border border-gray-300 shadow rounded-lg gap-y-4 pt-10'>
+        <div className='flex flex-col border border-gray-700 shadow rounded-lg gap-y-4 pt-10'>
           <h1 className='text-2xl font-bold ml-5'>Cloud Computing Solutions</h1>
           <p className='ml-5 text-lg text-blue-700'>Basic Cloud Package: Essential cloud storage and computing services.</p>
           <p className='ml-5 text-lg text-blue-700'>Advanced Cloud Package: Enhanced cloud capabilities with additional features.</p>
           <p className='ml-5 text-lg text-blue-700 mb-10'>Enterprise Cloud Package: Comprehensive cloud solutions with full support and maintenance.</p>
         </div>
-        <div className='flex flex-col border border-gray-300 shadow rounded-lg gap-y-4 pt-10'>
+        <div className='flex flex-col border border-gray-700 shadow rounded-lg gap-y-4 pt-10'>
           <h1 className='text-2xl font-bold ml-5'>IT Consulting Services</h1>
           <p className='ml-5 text-lg text-blue-700'>Consultation Only: Expert advice for your IT projects.</p>
           <p className='ml-5 text-lg text-blue-700'>Project Management: Complete management of IT implementation projects.</p>

@@ -63,6 +63,10 @@ import star from "./Star.svg"
 import consult from "./consult.png"
 import execute from "./execute.png"
 import strategy from "./strategy.png"
+import header1 from "./home5-header-img.png"
+import header2 from "./home-01-card-2.png"
+import header3 from "./home-01-card-3.png"
+import header4 from "./home-01-card-threats-ok.png"
 
 export {
     cloud,
@@ -130,4 +134,8 @@ export {
     consult,
     execute,
     strategy,
+    header1,
+    header2,
+    header3,
+    header4
 }

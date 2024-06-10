@@ -1,5 +1,5 @@
 import React from 'react'
-import { itservices3, itservices4,  statistics2, statistics4, icon2, icon3, icon4, circle  } from '../assets'
+import { itservices3, itservices4,  statistics2, statistics4, icon2, icon3, icon4, circle, header2, header3, header4, header1  } from '../assets'
 import { styles } from '../styles'
 import { TiTickOutline } from "react-icons/ti";
 import { Link } from 'react-router-dom';
@@ -18,11 +18,12 @@ const IT = () => {
         </div>
       </div>
 
-      <div className='bg-white pt-20 pb-10'>
-          <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 text-primary pb-20 max-w-7xl mx-auto gap-5`}>
+      <div className='text-white pt-20 pb-10'>
+      <div className='absolute z-[1] w-[80%] h-[30%]  white__gradient'/>
+          <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 pb-20 max-w-7xl mx-auto gap-5`}>
             <div className='flex flex-col'>
                 <h1 className='text-grade text-lg tracking wide font-bold'>Why Choose Us</h1>
-                <h1 className='text-4xl font-bold tracking wide mt-3'>Expert Support to Leverage New Technology.</h1>
+                <h1 className='text-4xl font-bold tracking wide mt-3 text-white'>Expert Support to Leverage New Technology.</h1>
                 <p className='text-secondary font-medium tracking-wide text-lg mt-5'>
                 Solstice Technologies Limited boasts a team of highly skilled IT consultants with decades of experience. Our experts help companies leverage new technology to enhance their business and plan comprehensive IT roadmaps. We provide honest advice and solutions that align with your organization’s goals and budget, prioritizing your needs over commissions. Even if you have in-house IT personnel, we can supplement your team, filling in any knowledge gaps to ensure a robust and effective IT strategy.
                 </p>
@@ -68,10 +69,18 @@ const IT = () => {
       </div>
       <div className='bg-primary pb-10'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-          <div className='w-full'>
-            <img src={itservices3}
+          <div className='relative flex items-center '>
+            <img src={header4}
             alt='tft1'
-            className='w-full h-full'/>
+            className=''/>
+            <div className='absolute top-0 right-0 hidden md:block'>
+              <img
+              src={header2}/>
+            </div>
+            <div className='absolute bottom-0 right-0 hidden md:block'>
+              <img
+              src={header3}/>
+            </div>
           </div>
           <div className='mt-10 md:mt-20 mx-3'>
             <div className='flex flex-col '>
@@ -125,66 +134,66 @@ const IT = () => {
           </div>
         </div>
       </div>
-      <div className='pt-20 pb-10 bg-white'>
+      <div className='pt-20 pb-10 text-white'>
         <div className='flex items-center justify-center'>
             <div className='flex flex-col items-center justify-center'>
                 <h1 className='text-grade text-lg tracking-wide mb-5'>Ease your concerns with our expert services.</h1>
-                <h1 className='text-5xl font-bold text-primary tracking-wide flex items-center ml-4 justify-center'>Stop Worrying with Solstice IT Consulting</h1>
+                <h1 className='text-5xl font-bold  tracking-wide flex items-center ml-4 justify-center'>Stop Worrying with Solstice IT Consulting</h1>
                 <div>
                 
                 </div>
             </div>
         </div>
         <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-center justify-center pt-20 mb-10'>
-            <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-9 px-12 hover:bg-gray-400'>
+            <div className='border border-gray-800 rounded-lg shadow flex flex-col items-center min-h-[280px] py-9 px-12 '>
                 <img
                 src={icon2}
                 alt='statistics1'
                 className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-5 py-5 rounded-full mb-5'/>
-                <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>Wasting Time and Money</h2>
+                <h2 className='text-3xl font-bold tracking-wide text-white mb-3'>Wasting Time and Money</h2>
                 <p className='text-secondary text-xl hover:text-white'>We'll find the appropriate technology solutions for your business</p>
             </div>
             
-            <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
+            <div className='border border-gray-800 rounded-lg flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
                 <img
                 src={icon3}
                 alt='statistics1'
                 className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-5 py-4 rounded-full mb-5'/>
-                <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
+                <h2 className='text-3xl font-bold tracking-wide text-white mb-3'>
                 Knowledge Gaps in Your IT Department</h2>
                 <p className='text-secondary text-xl hover:text-white'>Our team can supplement and enhance your existing IT capabilities.</p>
             </div>
-            <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
+            <div className='border border-gray-800 rounded-lg flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
                 <img
                 src={icon4}
                 alt='statistics1'
                 className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-4 py-5 rounded-full mb-5'/>
-                <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
+                <h2 className='text-3xl font-bold tracking-wide mb-3'>
                 Poor ROI from Technology Purchases</h2>
                 <p className='text-secondary text-xl hover:text-white'>Our comprehensive planning secures your technological future</p>
             </div>
-            <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
+            <div className='border border-gray-800 rounded-lg flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-gray-400'>
                 <img
                 src={statistics2}
                 alt='statistics1'
                 className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-5 py-5 rounded-full mb-5'/>
-                <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
+                <h2 className='text-3xl font-bold tracking-wide  mb-3'>
                 Ineffective Technology Strategies</h2>
                 <p className='text-secondary text-xl hover:text-white'>Our expertise ensures your strategies support company growth and agility.</p>
             </div>
-            <div className='bg-gray-200 flex flex-col items-center min-h-[280px] py-12 px-12 hover:bg-gray-400'>
+            <div className='border border-gray-800 rounded-lg flex flex-col items-center min-h-[280px] py-12 px-12 hover:bg-gray-400'>
                 <img
                 src={statistics4}
                 alt='statistics1'
                 className='bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% w- px-4 py-5 rounded-full mb-5'/>
-                <h2 className='text-3xl font-bold tracking-wide text-primary mb-3'>
+                <h2 className='text-3xl font-bold tracking-wide mb-3'>
                 Secure Your Tech Future</h2>
                 <p className='text-secondary text-xl hover:text-white'>Our planning ensures peace of mind.</p>
             </div>
         </div>
       </div>
       <Partners />
-      <div className='bg-white pt-20 pb-10'>
+      <div className='pt-20 pb-10'>
         <Blogs />
       </div>
       <Footer />

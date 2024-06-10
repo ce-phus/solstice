@@ -9,7 +9,8 @@ const App = () => {
       <div className='bg-primary z-50 relative'>
         <Navbar />
       </div>
-        <Routes>
+      <div className='bg-primary'>
+      <Routes>
           <Route path='/' element={<Home />} exact />
           <Route path='/about' element={<AboutPage />} exact />
           <Route path='/contact' element={<Contact />} exact />
@@ -18,8 +19,9 @@ const App = () => {
           <Route path='/it' element={<IT />} exact />
           <Route path='/managedITsolutions' element={<Managed />} exact />
         </Routes>
-      
+      </div>
     </Router>
+        
     
   )
 }
