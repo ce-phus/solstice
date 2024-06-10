@@ -13,6 +13,7 @@ const Managed = () => {
         "A managed service outsources IT needs to a third-party, providing a budget-friendly IT department for smaller businesses.",
       
       image: managed5,
+      subtitle1:""
     },
     {
       title: "What is the difference between a Managed Service Provider and Managed IT Services?",
@@ -93,30 +94,30 @@ const Managed = () => {
               <img
               src={star}
               alt='star'
-              className='bg-tertiary rounded-full px-3 w-[60px]'/>
+              className='bg-tertiary rounded-full px-3 w-[60px] h-[60px]'/>
               <div className='flex flex-col ml-5'>
                 <h1 className='text-xl font-bold'>Customized Installation:</h1>
-                <p className='mt-2 text-lg text-secondary'>Aligns hardware and software with business goals.</p>
+                <p className='mt-2 text-lg text-secondary'>Our managed IT services team installs hardware and software that align with your business goals, so you don’t pay for anything you don’t need and use only what you do.</p>
               </div>
             </div>
             <div className='flex mb-10'>
               <img
               src={send}
               alt='star'
-              className='bg-tertiary rounded-full px-3 w-[60px]'/>
+              className='bg-tertiary rounded-full px-3 w-[60px] h-[60px]'/>
               <div className='flex flex-col ml-5'>
-                <h1 className='text-xl font-bold'>24/7 Maintenance:</h1>
-                <p className='mt-2 text-lg text-secondary'>Proactive infrastructure maintenance ensures fast recovery.</p>
+                <h1 className='text-xl font-bold'>Around-the-clock Maintenance:</h1>
+                <p className='mt-2 text-lg text-secondary'>Proactive maintenance of your IT infrastructure, day or night, keeps us informed and ready to tackle any issues that may arise for fast recovery.</p>
               </div>
             </div>
             <div className='flex'>
               <img
               src={shield}
               alt='star'
-              className='bg-tertiary rounded-full px-3 w-[60px]'/>
+              className='bg-tertiary rounded-full px-3 w-[60px] h-[60px]'/>
               <div className='flex flex-col ml-5'>
                 <h1 className='text-xl font-bold'>Secure Infrastructure:</h1>
-                <p className='mt-2 text-lg text-secondary'>Highest levels of data security.</p>
+                <p className='mt-2 text-lg text-secondary'>With a team dedicated to handling your IT needs, we set up and maintain the highest levels of security around your data, keeping you protected.</p>
               </div>
             </div>
           </div>
@@ -136,22 +137,22 @@ const Managed = () => {
             <h1 className='text-4xl font-bold tracking-wide mt-6 mb-3 '>Don't Be Left Out !</h1>
               <h1 className='text-accent font-bold'>""</h1>
               <h1 className='text-2xl font-bold tracking-wide mt-6 mb-3'>Benefits of Our Managed IT Services</h1>
-              <p className='tracking-wide text-ls mt-5 mx-3 md:mx-0 md:w-3/4 mb-3'>Our managed IT services provide immediate benefits, from saving time to improving resource management.</p>
+              <p className='tracking-wide text-ls mt-5 mx-3 md:mx-0 md:w-3/4 mb-3'>From simply saving time to improving resource management, our managed IT services benefits can be seen instantly after implementation.</p>
               <h1 className='text-accent font-bold text-xl'>Key Benefits:"</h1>
               <div className='flex mt-5'>
-                <TiTickOutline className='border border-primary rounded-full mt-1'/>
+                <TiTickOutline className='border border-primary rounded-full mt-1 w-12'/>
                 <div className='flex flex-col '>
                   <p className='ml-3 font-bold text-lg'>
                   Cost-efficient Up-time:</p>
-                  <p className='ml-3 text-sm mt-2'>Avoid costly in-house IT staff and overtime expenses.</p>
+                  <p className='ml-3 text-sm mt-2'>Hiring in-house IT staff is costly when it comes to updating your system, often leading to overtime expenses. Our managed IT services team keeps your system up to date without the added expense or risk of system downtim</p>
                 </div>
               </div>
             <div className='flex mt-5'>
-                <TiTickOutline className='border border-primary rounded-full mt-1'/>
+                <TiTickOutline className='border border-primary rounded-full mt-1 w-12'/>
                 <div className='flex flex-col '>
                   <p className='ml-3 font-bold text-lg'>
                   IT Project Management:</p>
-                  <p className='ml-3 text-sm mt-2'> Access to experts in various IT fields for comprehensive project management.</p>
+                  <p className='ml-3 text-sm mt-2'> Every piece of hardware, software, and IT for your business requires different personnel with expertise on that subject. With our managed IT services, you get access to experts in various IT fields to help manage any IT project.</p>
                 </div>
             </div>
             </div>

@@ -325,15 +325,19 @@ const Cyber = () => {
         <div className='mx-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-white pt-20'>
           <div className='bg-tertiary flex items-center justify-center flex-col px-3 py-2 rounded-2xl hover:scale-105 duration:500'>
             <h1 className='text-xl font-bold mb-5'>What is Cyber Security ?</h1>
-            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>Cybersecurity protects systems, networks, programs, and infrastructure from digital attacks aimed at retrieving sensitive data.</p>
+            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>Cybersecurity, by definition, is the act of protecting any system, network, program, or infrastructure from cyberattacks.</p>
+            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>Cyberattacks are digital attacks that aim to retrieve sensitive data, whether personal, business, or confidential. By doing so, attackers can bribe the owner of that information and extort them for money (usually). These attacks are normally so harmful that businesses do not recover, whether that’s due to operational damage or financial damage.</p>
+            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>Our cybersecurity services aim to prevent these attacks and set up a digital barrier around a business so they can perform transactions safely..</p>
           </div>
           <div className='bg-tertiary flex items-center justify-center flex-col px-3 py-2 rounded-2xl hover:scale-105 duration:500'>
             <h1 className='text-xl font-bold mb-5'>What types of threats are there ?</h1>
-            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>Common threats include phishing, malware, ransomware, DoS attacks, MitM attacks, SQL injection attacks, and more. Our services cover all types of attacks, from simple to complex.</p>
+            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>There are many types of cyberthreats. You are most likely familiar with phishing, malware, and ransomware. These involve fraudulent emails that trick the reader into sending payments or sensitive information or downloading malicious software onto your devices.</p>
+            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>There are many other types of cyberthreats that target businesses such as DoS attacks, MitM attacks, SQL injection attacks, and more. These are much more complicated and often don’t involve personal interaction or acceptance by mistake.</p>
+            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>Our cybersecurity services protect your business against all kinds of attacks, from simple to complex.</p>
           </div>
           <div className='bg-tertiary flex items-center justify-center flex-col px-3 py-2 rounded-2xl hover:scale-105 duration:500'>
             <h1 className='text-xl font-bold mb-5'>Do cybersecurity services also fix damage related to cyberattacks?</h1>
-            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>Our services aim to prevent attacks. If an attack occurs under our protection, we act to remove it. If you've already experienced an attack, we will assess the damage during the consultation.</p>
+            <p className='tracking-wide mb-5 md:w-3/4 text-secondary'>Our cybersecurity services aim to prevent even the potential for an attack. If one happens under our protection, then we will act accordingly and seek to remove it. If you’ve already undergone a cyberattack, then let us know during the consultation as we will need to assess the damage before implementing any services.</p>
           </div>
         </div>
         <div className='flex items-center justify-center pt-10'>
