@@ -30,7 +30,7 @@ const Banner = () => {
                 <p className='ml-3 font-bold'>
                 Proactive Approach</p>
             </div>
-            <Link to={"/profile.pdf"} target={'_blank'} className='  flex items-center justify-center w-1/2 px-3 py-4 border border-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:text-primary mt-7 mb-5 text-xl font-bold tracking-wide hover:scale-105 duration-500' download={true}>Learn More</Link>
+            
         </div>
 
         <div className='relative mt-10'>

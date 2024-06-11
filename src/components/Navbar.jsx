@@ -71,21 +71,28 @@ const Navbar = () => {
                             <div id="dropdownHover" className="z-60 absolute top-full bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
                                 <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownHoverButton">
                                     <li>
-                                        <a href="/it" className="block px-4 py-2 hover:bg-gray-100">IT Consulting</a>
-                                    </li>
-                                    <li>
-                                        <a href="/managedITsolutions" className="block px-4 py-2 hover:bg-gray-100">Managed IT Services</a>
+                                        <a href="/cyber" className="block px-4 py-2 hover:bg-gray-100">Cyber Security Services</a>
                                     </li>
                                     <li>
                                         <a href="/cloud" className="block px-4 py-2 hover:bg-gray-100">Cloud Computing</a>
                                     </li>
                                     <li>
-                                        <a href="/cyber" className="block px-4 py-2 hover:bg-gray-100">Cyber Security Services</a>
+                                        <a href="/managedITsolutions" className="block px-4 py-2 hover:bg-gray-100">Managed IT Services</a>
                                     </li>
+                                    <li>
+                                        <a href="/it" className="block px-4 py-2 hover:bg-gray-100">IT Consulting</a>
+                                    </li>
+                                    
                                 </ul>
                             </div>
                         )}
                     </li>
+                    <li className="text-gray-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg>
+                    </li>
+                    <li><a className="text-sm text-gray-400 hover:text-gray-500" href="/#">Blog</a></li>
                     <li className="text-gray-300">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />

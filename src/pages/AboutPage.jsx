@@ -65,33 +65,7 @@ const AboutPage = () => {
                     towards adding value to your business</p>
               </div>
               
-              <div className='flex flex-col cols-pan-2 items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3 mt-5 text-white'>
-                
-                  <div className='flex flex-col items-end justify-center xl:items-center text-white'>
-                      <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                          <AnimatedNumber value={50}/>+
-                      </span>
-                      <h2 className='text-xl font-medium capitalize text-dark dark:text-light xl:text-center md:text-lg sm:text-base xs:text-sm'>Engineering Sectors</h2>
-                  </div>
-                  <div className='flex flex-col items-end justify-center xl:items-center'>
-                      <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                      <AnimatedNumber value={20}/>+
-                      </span>
-                      <h2 className='text-xl font-medium capitalize text-dark dark:text-light xl:text-center md:text-lg sm:text-base xs:text-sm'>Healthcare Sectors</h2>
-                  </div>
-                  <div className='flex flex-col items-end justify-center xl:items-center'>
-                      <span className='inline-block text-7xl font-bold dark:text-light md:text-6xl sm:text-5xl xs:text-4xl'>
-                      <AnimatedNumber value={10}/>+
-                      </span>
-                      <h2 className='text-xl font-medium capitalize text-dark
-                      dark:text-light xl:text-center md:text-lg sm:text-base xs:text-sm'>Energy Sectors</h2>
-                  </div>
-                      
-              </div>
-                <div>
-                <Link to={"/profile.pdf"} target={'_blank'} className='  flex items-center justify-center w-1/2 px-3 py-4 border border-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:text-primary mt-7 mb-5 text-xl font-bold tracking-wide hover:scale-105 duration-500' download={true}>Learn More</Link>
-                </div>
-              <h1 className='text-lg font-bold tracking-wide text-white'>Industries Served</h1>
+              
           </div>
           <div className='relative mt-10 mb-10 ml-10'>
               <img
@@ -113,7 +87,7 @@ const AboutPage = () => {
             alt='tft1'
             className=''/>
           </div>
-          <div className='mt-10 md:mt-20 mx-3'>
+          <div className='mt-10 md:mt-20 mx-3 pb-20'>
           <div className='absolute z-[0] w-[20%] h-[50%]  blue__gradient'/>
             <div className='flex flex-col '>
               <h1 className='text-4xl font-bold tracking-wide mt-6 mb-3 '>Background Information</h1>
@@ -141,15 +115,12 @@ const AboutPage = () => {
                 <p className='ml-3 font-bold'>
                 Marketing & Advertising Sector</p>
             </div>
-            <Link to={"/profile.pdf"} target={'_blank'} className='  flex items-center justify-center w-1/2 px-3 py-4 border border-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:text-primary mt-7 mb-5 text-xl font-bold tracking-wide hover:scale-105 duration-500' download={true}>Learn More</Link>
+           
             </div>
           </div>
         </div>
       </div>
 
-      <div className='pt-20  pb-10'>
-        <Statistics />
-      </div>
       <div className='pt-20 pb-10'>
         <Testimonial />
       </div>

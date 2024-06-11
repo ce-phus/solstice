@@ -1,5 +1,6 @@
 import React from 'react'
 import { rightArrow, service1, service2, service3, service4, service5, service6 } from '../assets'
+import { Link } from 'react-router-dom'
 
 const Section = () => {
   return (
@@ -11,7 +12,8 @@ const Section = () => {
         </div>
     
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 flex items-center justify-center pt-20 max-w-7xl mx-auto mb-10'>
-            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80'>
+            <Link to={"/cyber"}>
+            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80 hover:scale-105 duration-500'>
                 <img
                 src={service1}
                 alt='service1'
@@ -23,7 +25,9 @@ const Section = () => {
                 alt='rightArrow'
                 className='w-15 border border-white py-4 px-4 rounded-full hover:scale-105 duration-500 hover:bg-gray-300'/>
             </div>
-            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80'>
+            </Link>
+            <Link to={"/managedITsolutions"}>
+            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80 hover:scale-105 duration-500'>
                 <img
                 src={service2}
                 alt='service2'
@@ -35,7 +39,9 @@ const Section = () => {
                 alt='rightArrow'
                 className='w-15 border border-white py-4 px-4 rounded-full hover:scale-105 duration-500 hover:bg-gray-300'/>
             </div>
-            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80'>
+            </Link>
+            <Link to={"/it"}>
+            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80 hover:scale-105 duration-500'>
                 <img
                 src={service3}
                 alt='service3'
@@ -47,7 +53,9 @@ const Section = () => {
                 alt='rightArrow'
                 className='w-15 border border-white py-4 px-4 rounded-full hover:scale-105 duration-500 hover:bg-gray-300'/>
             </div>
-            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80'>
+            </Link>
+            <Link to={"/cloud"}>
+            <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80 hover:scale-105 duration-500'>
                 <img
                 src={service6}
                 alt='service1'
@@ -59,6 +67,7 @@ const Section = () => {
                 alt='rightArrow'
                 className='w-15 border border-white py-4 px-4 rounded-full hover:scale-105 duration-500 hover:bg-gray-300'/>
             </div>
+            </Link>
         </div>
     </>
   )
