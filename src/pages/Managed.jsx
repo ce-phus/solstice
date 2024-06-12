@@ -1,5 +1,5 @@
 import React from 'react'
-import { managed1, circle, star, send, shield, header1 } from '../assets'
+import { managed1, circle, star, send, shield, header1, managed3, managed4, managed2 } from '../assets'
 import { styles } from '../styles'
 import { TiTickOutline } from "react-icons/ti";
 import { Link } from 'react-router-dom';
@@ -50,7 +50,7 @@ const Managed = () => {
             </div>
             <div className='relative mt-10'>
                 <img
-                src={managed1} alt='banner'
+                src={managed2} alt='banner'
                 className='w-full h-full'/>
                 <div className='absolute -top-10 -right-10'>
                     <img

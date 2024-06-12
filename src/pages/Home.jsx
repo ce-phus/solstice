@@ -41,9 +41,9 @@ const Home = () => {
       <div className='pt-20'>
         <Banner/>
       </div>
-      <div className=' pb-10'>
+      {/* <div className=' pb-10'>
         <Portfolio />
-      </div>
+      </div> */}
       <div className='bg-primary pb-10'>
         <Partners />
       </div>
