@@ -1,5 +1,5 @@
 import React from 'react'
-import { managed1, managed5, managed6, managed7, circle, star, send, shield, header1 } from '../assets'
+import { managed1, circle, star, send, shield, header1 } from '../assets'
 import { styles } from '../styles'
 import { TiTickOutline } from "react-icons/ti";
 import { Link } from 'react-router-dom';
@@ -127,7 +127,7 @@ const Managed = () => {
               </div>
             </div>
             <div className='flex'>
-              <ixl
+              <img
               src={shield}
               alt='star'
               className='bg-tertiary rounded-full px-3 w-[60px] h-[60px]'/>
