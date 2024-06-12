@@ -10,24 +10,24 @@ const Banner = () => {
         <div className='absolute z-[3] -left-1/2  w-[50%] h-[50%] rounded-full white__gradient'/>
         
         <div className='flex flex-col'>
-            <h1 className='text-grade text-lg tracking wide font-bold'>Why Choose Us</h1>
+            <h1 className='text-grade text-xl tracking wide font-bold'>Why Choose Us</h1>
             <h1 className='text-4xl font-bold tracking wide mt-3'>The Solstice Advantage</h1>
-            <p className='text-secondary font-medium tracking-wide text-lg mt-5'>
+            <p className='text-secondary font-medium tracking-wide text-xl mt-5'>
             Choosing Solstice Technologies Limited means partnering with a team of dedicated experts who prioritize your business needs. With decades of experience, we offer tailored solutions in cybersecurity, IT services, managed IT consulting, and cloud computing. Our commitment to excellence ensures your technology infrastructure is secure, efficient, and aligned with your business goals. Trust us to help your business thrive in today's digital landscape.
             </p>
             <div className='flex mt-5'>
                 <TiTickOutline className='border border-primary rounded-full mt-1'/>
-                <p className='ml-3 font-bold'>
+                <p className='ml-3 font-bold text-lg'>
                     Expertise</p>
             </div>
             <div className='flex mt-5'>
                 <TiTickOutline className='border border-primary rounded-full mt-1'/>
-                <p className='ml-3 font-bold'>
+                <p className='ml-3 font-bold text-lg'>
                 Customized Solutions</p>
             </div>
             <div className='flex mt-5'>
                 <TiTickOutline className='border border-primary rounded-full mt-1'/>
-                <p className='ml-3 font-bold'>
+                <p className='ml-3 font-bold text-lg'>
                 Proactive Approach</p>
             </div>
             

@@ -29,8 +29,8 @@ const Home = () => {
             width={900}
             />
             <div className='absolute z-[60] w-[30%] h-[35%] top-0 pink__gradient'/>
-      <div className='absolute z-[70] w-[20%] h-[80%] top-0 white__gradient'/>
-      <div className='absolute z-[50] w-[20%] h-[50%] top-0 blue__gradient'/>
+            <div className='absolute z-[70] w-[20%] h-[80%] top-0 white__gradient'/>
+            <div className='absolute z-[50] w-[20%] h-[50%] top-0 blue__gradient'/>
           </div>
         </div>
       </div>
