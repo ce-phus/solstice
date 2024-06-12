@@ -208,19 +208,7 @@ const Cyber = () => {
               <div className='gap-y-3'>
                 <div className='flex mt-4'>
                   < TiTickOutline className='mt-1 w-9'/>
-                  <p className='ml-3 text-xl text-secondary'>DoD Contractors</p>
-                </div>
-                <div className='flex mt-4'>
-                  < TiTickOutline className='mt-1 w-9'/>
                   <p className='ml-3 text-xl text-secondary'>General Contractors</p>
-                </div>
-                <div className='flex mt-4'>
-                  < TiTickOutline className='mt-1 w-9'/>
-                  <p className='ml-3 text-xl text-secondary'>Construction and Engineering Firms</p>
-                </div>
-                <div className='flex mt-4'>
-                  < TiTickOutline className='mt-1 w-9'/>
-                  <p className='ml-3 text-xl text-secondary'>Law Firms</p>
                 </div>
                 <p className='text-secondary text-xl tracking-wide mt-5 mb-7'>Each service is customized to meet the company’s specific security needs. Experience this for yourself when you get our cybersecurity.</p>
               </div>
