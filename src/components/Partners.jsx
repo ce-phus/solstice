@@ -7,9 +7,7 @@ const Partners = () => {
     <>
         <div className='flex justify-center'>
         <div className='absolute z-[3] left-1/2  w-[50%] h-[50%] rounded-full white__gradient'/>
-            <img
-            src={logo}
-            alt='logo'/>
+            
         </div>
         <div className='py-8 mt-24 hidden md:block '>
             <div className=''>
