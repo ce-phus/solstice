@@ -78,7 +78,7 @@ const Cyber = () => {
             <Link to={"/contact"} className='w-full border border-grade px-5 py-4 text-lg font-bold text-grade hover:text-white hover:bg-grade hover:scale-105 duration-500 border-l-[3px]'>Book a Consultation Today</Link>
           </div>
           <div className='border border-gray-700 flex mx-11 px-5 flex flex-col items-center justify-center'>
-              <h1 className='text-3xl font-bold mt-10'>When you choose Solstice Technologies Limited , you get solutions to the following problems:</h1>
+              <h1 className='text-3xl font-bold mt-10'>When you choose Solstice Technologies Limited, you get solutions to the following problems:</h1>
               <div className='gap-y-3'>
                 <div className='flex mt-4'>
                   < TiTickOutline className='mt-1 w-9'/>
