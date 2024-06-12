@@ -78,7 +78,7 @@ const Cyber = () => {
             <Link to={"/contact"} className='w-full border border-grade px-5 py-4 text-lg font-bold text-grade hover:text-white hover:bg-grade hover:scale-105 duration-500 border-l-[3px]'>Book a Consultation Today</Link>
           </div>
           <div className='border border-gray-700 flex mx-11 px-5 flex flex-col items-center justify-center'>
-              <h1 className='text-3xl font-bold mt-10'>When you choose Solstice Technologies Limited Solutions, you get solutions to the following problems:</h1>
+              <h1 className='text-3xl font-bold mt-10'>When you choose Solstice Technologies Limited , you get solutions to the following problems:</h1>
               <div className='gap-y-3'>
                 <div className='flex mt-4'>
                   < TiTickOutline className='mt-1 w-9'/>
@@ -106,7 +106,7 @@ const Cyber = () => {
         </div>
       </div>
       <div className='flex flex-col mx-3 pt-20'>
-        <h1 className='font-bold text-5xl tracking-wide'>How Solstice Technologies Limited Solutions Protects Your Business</h1>
+        <h1 className='font-bold text-5xl tracking-wide'>How Solstice Technologies Limited  Protects Your Business</h1>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-7 pt-20'>
           <div className='flex flex-col justify-evenly'>
             <div className='flex items-center flex-col'>
@@ -146,8 +146,8 @@ const Cyber = () => {
 
       <div className='pt-20 flex flex-col mx-3'>
       <div className='absolute z-[1] w-[80%] h-[30%]  white__gradient'/>
-        <h1 className='text-5xl tracking-wide font-bold'>Why Choose Solstice Technologies Limited Solutions for Cybersecurity Services</h1>
-        <p className='text-secondary text-xl tracking-wide mt-5'>Our dedicated cybersecurity team is highly trained in threat monitoring, threat management, and threat disposals. Their expertise allows Solstice Technologies Limited Services to remain on top of existing and emerging threats and a breakneck pace, keeping you protected always. Learn how our cybersecurity solutions can protect your business.</p>
+        <h1 className='text-5xl tracking-wide font-bold'>Why Choose Solstice Technologies Limited for Cybersecurity Services</h1>
+        <p className='text-secondary text-xl tracking-wide mt-5'>Our dedicated cybersecurity team is highly trained in threat monitoring, threat management, and threat disposals. Their expertise allows Solstice Technologies Limited Services to remain on top of existing and emerging threats and a breakneck pace, keeping you protected always. Learn how our cybersecurity can protect your business.</p>
         <h2 className='text-2xl font-bold my-5'>Expertise in Cybersecurity</h2>
         <p className='text-xl text-secondary tracking-wide'>The expertise our team has spent years gaining is put to full use against cyberattacks of all threat levels.</p>
         <h2 className='text-2xl font-bold my-5'>Around-the-clock Maintenance</h2>
@@ -171,7 +171,7 @@ const Cyber = () => {
             <TiTickOutline  className='mt-1 w-12 mr-3'/>
             <p className='font-bold text-2xl '>Area of Cyber Security Service</p>
           </div>
-          <p className='text-xl tracking-wide text-secondary my-4 ml-10'>Cybersecurity services are not as simple as installing a firewall or antivirus software. They delve much deeper into the world of shared information and connectivity. Find out what our cybersecurity solutions can offer your business.</p>
+          <p className='text-xl tracking-wide text-secondary my-4 ml-10'>Cybersecurity services are not as simple as installing a firewall or antivirus software. They delve much deeper into the world of shared information and connectivity. Find out what our cybersecurity can offer your business.</p>
         </div>
         <div>
           <div className='flex'>
@@ -199,12 +199,12 @@ const Cyber = () => {
       <div className='flex items-center justify-center pt-20 max-w-7xl mx-auto flex-col'>
         <div className='grid grid-cols-1 lg:grid-cols-2 pt-20 gap-7'>
           <div className='mx-11'>
-            <h1 className='text-3xl tracking-wide font-bold'>Industries that Benefit from Cybersecurity Solutions</h1>
+            <h1 className='text-3xl tracking-wide font-bold'>Industries that Benefit from Cybersecurity</h1>
 
-            <p className='mt-5 tracking-wide text-xl text-secondary mb-10'>As more businesses move to the digital landscape, cybercriminals gain more access to different industries. Fortunately, you can protect your business and data with our cybersecurity solutions.</p>
+            <p className='mt-5 tracking-wide text-xl text-secondary mb-10'>As more businesses move to the digital landscape, cybercriminals gain more access to different industries. Fortunately, you can protect your business and data with our cybersecurity.</p>
           </div>
           <div className='border border-gray-700 flex mx-11 px-5 flex flex-col items-center justify-center'>
-              <h1 className='text-3xl font-bold mt-10'>Solstice Technologies Limited Solutions provides cybersecurity services to the following businesses:</h1>
+              <h1 className='text-3xl font-bold mt-10'>Solstice Technologies Limited  provides cybersecurity services to the following businesses:</h1>
               <div className='gap-y-3'>
                 <div className='flex mt-4'>
                   < TiTickOutline className='mt-1 w-9'/>
@@ -222,7 +222,7 @@ const Cyber = () => {
                   < TiTickOutline className='mt-1 w-9'/>
                   <p className='ml-3 text-xl text-secondary'>Law Firms</p>
                 </div>
-                <p className='text-secondary text-xl tracking-wide mt-5 mb-7'>Each service is customized to meet the company’s specific security needs. Experience this for yourself when you get our cybersecurity solutions.</p>
+                <p className='text-secondary text-xl tracking-wide mt-5 mb-7'>Each service is customized to meet the company’s specific security needs. Experience this for yourself when you get our cybersecurity.</p>
               </div>
           </div>
         </div>
