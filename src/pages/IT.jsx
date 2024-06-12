@@ -37,7 +37,7 @@ const IT = () => {
             <p className='mt-5 tracking-wide text-xl text-secondary'>Solistice IT Solutions employs a highly skilled team of IT consultants with decades of experience helping companies use new technology to enhance their business and plan a comprehensive IT roadmap, and we can do the same for you. You’ll get honest advice and solutions that fully align with your organization’s goals and budget; we’ll never recommend the most expensive products just to make a commission. Already have in-house IT personnel? We have experience supplementing existing IT departments, and our diverse team of experts can fill in any knowledge gaps.</p>
           </div>
           <div className='border border-gray-700 flex mx-11 px-5 flex flex-col items-center justify-center'>
-              <h1 className='text-3xl font-bold mt-10 lg:mt-0'>With IT Consulting and Project Planning Services from Solstice IT Solutions, You Can Stop Worrying About:</h1>
+              <h1 className='text-3xl font-bold mt-10 lg:mt-0'>With IT Consulting and Project Planning Services from Solstice Technologies Limited Solutions, You Can Stop Worrying About:</h1>
               <div className='gap-y-3'>
               <div className='flex mt-4'>
                   < TiTickOutline className='mt-1 w-9'/>

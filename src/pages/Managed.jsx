@@ -62,7 +62,7 @@ const Managed = () => {
       </div>
 
       <div className='pt-20 flex flex-col items-center justify-center max-w-7xl mx-auto'>
-        <h1 className='text-3xl tracking-wide mx-3 font-bold'>Solstice IT Services will manage, organize, and create an infrastructure that maintains profitability through managed IT services.</h1>
+        <h1 className='text-3xl tracking-wide mx-3 font-bold'>Solstice Technologies Limited Services will manage, organize, and create an infrastructure that maintains profitability through managed IT services.</h1>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-7'>
           <div className='mt-10 mx-4 lg:mx-0 flex flex-col'>
             <h1 className='text-2xl tracking-wide font-bold'>What Our Managed IT Services Cover</h1>
@@ -187,7 +187,7 @@ const Managed = () => {
               </div>
               <div className='flex items-center flex-col'>
                 <h1 className='text-2xl font-bold mb-3'>What is the difference between a Managed Service Provider and Managed IT Services?</h1>
-                  <p className='text-xl text-secondary mx-3 mb-3'>Managed IT services are fulfilled by an MSP, a Managed Service Provider. In the case of Solstice IT Services, we act as your MSP when you subscribe to our managed IT services.</p>
+                  <p className='text-xl text-secondary mx-3 mb-3'>Managed IT services are fulfilled by an MSP, a Managed Service Provider. In the case of Solstice Technologies Limited Services, we act as your MSP when you subscribe to our managed IT services.</p>
                   <p className='text-xl text-secondary mx-3'>Using an MSP is a better solution for small businesses who cannot afford or do not need their own in-house IT team. It is economical while keeping your valuable business efficiently running.</p>
               </div>
               <div className='flex items-center flex-col'>

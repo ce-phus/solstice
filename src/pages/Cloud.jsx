@@ -47,10 +47,10 @@ const Cloud = () => {
           <div className='mx-11'>
             <p className='tracking-wide text-xl text-secondary'>The cloud, as you may have heard, is being touted by many as revolutionary, and they’re not wrong. A simple example of a cloud computing model is a video streaming service. You no longer have to buy physical media or a player; movies are stored and played from a central location and all you need is a device with an internet connection. Business cloud solutions are similar, in that your important data and software are handled at a secure, off-site data center on top-of-the-line server farms. Connect to the internet from anywhere and you get access.</p>
 
-            <p className='mt-5 tracking-wide text-xl text-secondary'>The benefits of Solstice IT’s business cloud services are many, and our cloud experts will empower your business to take full advantage of them. You won’t have to spend capital investing in expensive servers or software and a monthly fee gives you unlimited access. Your apps and important files will be safe and secure at these data centers, no matter what disaster might befall your workplace. These are just a couple of the many advantages our business cloud solutions can offer, contact us to explore all of your options.</p>
+            <p className='mt-5 tracking-wide text-xl text-secondary'>The benefits of Solstice Technologies Limited's business cloud services are many, and our cloud experts will empower your business to take full advantage of them. You won’t have to spend capital investing in expensive servers or software and a monthly fee gives you unlimited access. Your apps and important files will be safe and secure at these data centers, no matter what disaster might befall your workplace. These are just a couple of the many advantages our business cloud solutions can offer, contact us to explore all of your options.</p>
           </div>
           <div className='border border-gray-700 flex mx-11 px-5 flex flex-col items-center justify-center'>
-              <h1 className='text-3xl font-bold mt-10 lg:mt-0'>With Business Cloud Services from Solstice IT Solutions, You Can Stop Worrying About:</h1>
+              <h1 className='text-3xl font-bold mt-10 lg:mt-0'>With Business Cloud Services from Solstice Technologies Limited, You Can Stop Worrying About:</h1>
               <div className='gap-y-3'>
                 <div className='flex mt-4'>
                   < TiTickOutline className='mt-1 w-9'/>

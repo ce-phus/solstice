@@ -92,18 +92,18 @@ const Contact = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-7 pt-20'>
         <div className='flex flex-col'>
           <h1 className='font-semibold tracking-wide text-2xl'>Points of contact</h1>
-          <p className='text-xl mt-4'>Solstice Tech, Kenya</p>
+          <p className='text-xl mt-4'>Solstice Technologies Limited, Kenya</p>
           <p className='text-xl mt-2 text-secondary ml-3'>ABC Place, Waiyaki Way, The Island</p>
           <p className='text-xl mt-4'>Information & Sales</p>
           <p className='text-lg mt-2 ml-3 text-blue-800'>hello@solstice.co.ke</p>
           <p className='text-xl mt-4'>Verification of Employment</p>
           <p className='text-lg mt-2 ml-3 text-blue-800'>hr@solstice.co.ke</p>
           <h1 className='font-bold tracking-wide text-2xl mt-4'>Our Offices around E.A</h1>
-          <p className='text-xl mt-4'>Solstice Tech, Kenya</p>
+          <p className='text-xl mt-4'>Solstice Technologies Limited, Kenya</p>
           <p className='text-xl mt-2 text-secondary ml-3'>ABC Place, Waiyaki Way, The Island</p>
-          <p className='text-xl mt-4'>Solstice Tech, Tanzania</p>
+          <p className='text-xl mt-4'>Solstice Technologies Limited, Tanzania</p>
           <p className='text-xl mt-2 text-secondary ml-3'>We Coming ...</p>
-          <p className='text-xl mt-4'>Solstice Tech, Rwanda</p>
+          <p className='text-xl mt-4'>Solstice Technologies Limited  Rwanda</p>
           <p className='text-xl mt-2 text-secondary ml-3'>We Coming ...</p>
         </div>
         <div className="pt-10 md:pt-0">

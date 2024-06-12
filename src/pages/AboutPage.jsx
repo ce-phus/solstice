@@ -10,7 +10,7 @@ const AboutPage = () => {
       <div className='relative bg-cover min-h-[800px]'>
         <div className={`${styles.paddingX} grid grid-cols-1 md:grid-cols-2 absolute inset-0 top-[120px] gap-10`}>
           <div className=''>
-                  <h1 className={`${styles.heroHeadText} `}>Solstice Tech</h1>
+                  <h1 className={`${styles.heroHeadText} `}>Solstice Technologies Limited</h1>
                   <p className={`${styles.heroSubText} mt-2 text-white-200`}>We Simplify and Streamline IT</p>
           </div>
           <div className='hidden md:block flex items-center  place-items-center ml-10 relative'>
