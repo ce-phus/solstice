@@ -54,6 +54,7 @@ const Section = () => {
                 className='w-15 border border-white py-4 px-4 rounded-full hover:scale-105 duration-500 hover:bg-gray-300'/>
             </div>
             </Link>
+            <div></div>
             <Link to={"/cloud"}>
             <div className='shadow-card bg-tertiary flex flex-col items-center min-h-[280px] py-5 px-12 hover:bg-tertiary/80 hover:scale-105 duration-500'>
                 <img
