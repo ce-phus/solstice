@@ -87,22 +87,22 @@ const AboutPage = () => {
               <div className='flex mt-5'>
                 <TiTickOutline className='border border-primary rounded-full mt-1'/>
                 <p className='ml-3 font-bold text-lg'>
-                Healthcare Sectors</p>
+                Healthcare</p>
             </div>
             <div className='flex mt-5 text-lg'>
                 <TiTickOutline className='border border-primary rounded-full mt-1'/>
                 <p className='ml-3 font-bold'>
-                Engineering Sectors</p>
+                Engineering</p>
             </div>
             <div className='flex mt-5 text-lg'>
                 <TiTickOutline className='border border-primary rounded-full mt-1'/>
                 <p className='ml-3 font-bold'>
-                Energy Sectors</p>
+                Energy</p>
             </div>
             <div className='flex mt-5 text-lg'>
                 <TiTickOutline className='border border-primary rounded-full mt-1'/>
                 <p className='ml-3 font-bold text-lg'>
-                Marketing & Advertising Sector</p>
+                Marketing & Advertising</p>
             </div>
            
             </div>
