@@ -93,7 +93,7 @@ const Contact = () => {
         <div className='flex flex-col'>
           <h1 className='font-semibold tracking-wide text-2xl'>Points of contact</h1>
           <p className='text-xl mt-4'>Solstice Technologies Limited, Kenya</p>
-          <p className='text-xl mt-2 text-secondary ml-3'>ABC Place, Waiyaki Way, The Island</p>
+          <p className='text-xl mt-2 text-secondary ml-3'>Nairobi Garage, Karen (Watermark Business Park, Cove Court, Ground Floor, Ndege Road)</p>
           <p className='text-xl mt-4'>Information & Sales</p>
           <p className='text-lg mt-2 ml-3 text-blue-800'>hello@solstice.co.ke</p>
           <p className='text-xl mt-4'>Verification of Employment</p>

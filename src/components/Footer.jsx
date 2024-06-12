@@ -103,9 +103,8 @@ const Footer = () => {
               <h1 className="text-xl font-bold sm:text-left mb-3">Address</h1>
               <div>
                 <div className="flex items-center gap-3">
-                  <FaLocationArrow />
-                  <p>ABC Place, Waiyaki Way,
-                    The Island</p>
+                  <FaLocationArrow className="w-[40px]" />
+                  <p>Nairobi Garage, Karen (Watermark Business Park, Cove Court, Ground Floor, Ndege Road)</p>
                 </div>
                 <div className="flex items-center gap-3 mt-6">
                   <FaMobileAlt />
