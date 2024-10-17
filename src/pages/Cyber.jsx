@@ -219,7 +219,7 @@ const Cyber = () => {
         
           <h1 className='text-3xl tracking-wide font-bold mx-4'>Contact Us for a Free Consultation about Activating Our Cybersecurity Services for Your Business</h1>
           <p className='mt-5 text-xl tracking-wide text-secondary lg:w-1/2 mx-5'>Now is the time to act and protect your business from any and all threats. This can be achieved by activating our cybersecurity services today. Contact us for a free consultation. We’re proud to serve and protect from cyberattacks, giving small businesses a stronger opportunity to stay on top of the market.</p>
-          <Link to={"/contact"} className='mt-10 text-lg font-bold border border-grade/40 px-4 py-3 text-grade hover:text-white hover:bg-grade hover:scale-105 duration-500'>Book a Free CyberSecurity Consultation</Link>
+          <Link to={"/contact"} className='mt-10 text-lg font-bold border border-grade/40 px-4 py-3 text-grade hover:text-white hover:bg-grade hover:scale-105 duration-500 rounded'>Book a Free CyberSecurity Consultation</Link>
       </div>
       </div>
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>

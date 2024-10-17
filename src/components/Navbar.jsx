@@ -61,14 +61,14 @@ const Navbar = () => {
                         </svg>
                     </li>
                     <li onMouseEnter={handleDropdownEnter} onMouseLeave={handleDropdownLeave} className="relative">
-                        <button id="dropdownHoverButton" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <button id="dropdownHoverButton" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
                             Services
                             <svg className="w-2.5 h-2.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
                             </svg>
                         </button>
                         {isDropdownOpen && (
-                            <div id="dropdownHover" className="z-60 absolute top-full bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                            <div id="dropdownHover" className="z-60 absolute top-full bg-white divide-y divide-gray-100 rounded-lg shadow w-44 mt-1">
                                 <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownHoverButton">
                                     <li>
                                         <a href="/cyber" className="block px-4 py-2 hover:bg-gray-100">Cyber Security Services</a>

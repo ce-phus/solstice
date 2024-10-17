@@ -172,7 +172,7 @@ const Managed = () => {
           <h1 className='text-3xl tracking-wide font-bold mx-4'>See What Managed IT Services Can Do for Your Business with a Free Consultation</h1>
           <p className='mt-5 text-xl tracking-wide text-secondary lg:w-1/2 mx-5'>Optimize your business with managed IT services that provide increased productivity, safety, and profitability. Contact us today for a free consultation and find
           out how we can improve your business’s IT without breaking your budget.</p>
-          <Link to={"/contact"} className='mt-4 text-lg font-bold border border-grade/40 px-4 py-3 text-grade hover:text-white hover:bg-grade hover:scale-105 hover:duration-500'>Contact Us for a Free Consultation</Link>
+          <Link to={"/contact"} className='mt-4 text-lg font-bold border border-grade/40 px-4 py-3 text-grade hover:text-white hover:bg-grade hover:scale-105 rounded hover:duration-500'>Contact Us for a Free Consultation</Link>
         
       </div>
 
