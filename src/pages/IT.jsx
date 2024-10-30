@@ -65,9 +65,9 @@ const IT = () => {
       </div>
       
       <Partners />
-      <div className='pt-20 pb-10'>
+      {/* <div className='pt-20 pb-10'>
         <Blogs />
-      </div>
+      </div> */}
       <Footer />
     </>
   )
