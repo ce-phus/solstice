@@ -116,9 +116,9 @@ const AboutPage = () => {
       <div>
         <Partners/>
       </div>
-      <div className='pb-10'>
+      {/* <div className='pb-10'>
       <Blogs/>
-      </div>
+      </div> */}
       <Footer/>
 
     </>
