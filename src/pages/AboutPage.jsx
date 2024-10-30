@@ -13,7 +13,7 @@ const AboutPage = () => {
                   <h1 className={`${styles.heroHeadText} `}>Solstice Technologies Limited</h1>
                   <p className={`${styles.heroSubText} mt-2 text-white-200`}>We Simplify And Streamline IT</p>
           </div>
-          <div className='hidden md:block flex items-center  place-items-center ml-10 relative'>
+          <div className='flex items-center  place-items-center ml-10 relative'>
                 <img
                 src={slider1}
                 className='shadow'

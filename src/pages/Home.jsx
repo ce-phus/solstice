@@ -18,9 +18,12 @@ const Home = () => {
                 <motion.p 
                 variants={textVariant()}
                 className={`${styles.heroSubText} mt-2 text-white-200`}>Your Partner in Advanced Technology Solutions</motion.p>
+                <Link to={'/about'}>
                 <div className='flex flex-col md:flex-row mt-5 gap-3'>
                   <GetStarted />
                 </div>
+                </Link>
+                
           </div>
           <div className=''>
             <img
@@ -47,9 +50,9 @@ const Home = () => {
       <div className='bg-primary pb-10'>
         <Partners />
       </div>
-      <div className='pb-10'>
+      {/* <div className='pb-10'>
         <Blogs/>
-      </div>
+      </div> */}
       <div className='bg-primary'>
         <Footer/>
       </div>

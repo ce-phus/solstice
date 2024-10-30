@@ -67,6 +67,7 @@ import header1 from "./home5-header-img.png"
 import header2 from "./home-01-card-2.png"
 import header3 from "./home-01-card-3.png"
 import header4 from "./home-01-card-threats-ok.png"
+import contact from "./contact.png"
 
 export {
     cloud,
@@ -137,5 +138,6 @@ export {
     header1,
     header2,
     header3,
-    header4
+    header4,
+    contact
 }

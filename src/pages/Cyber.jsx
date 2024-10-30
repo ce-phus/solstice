@@ -71,7 +71,7 @@ const Cyber = () => {
         <h1 className='text-5xl mx-10 font-bold tracking-wide'>Solstice Technologies Limited Services provides total protection through continually learning, up-to-date, and fully aware cybersecurity services.</h1>
         <div className='grid grid-cols-1 lg:grid-cols-2 pt-20 gap-7'>
           <div className='mx-11'>
-            <h1 className='text-3xl tracking-wide font-bold'>What You Get from Cybersecurity Services</h1>
+            <h1 className='text-3xl tracking-wide font-bold mb-4'>What You Get from Cybersecurity Services</h1>
             <p className='tracking-wide text-xl text-secondary'>The modern criminal has moved to the digital space. They can now infiltrate your business and access your data when your IT system and network are left unprotected.</p>
 
             <p className='mt-5 tracking-wide text-xl text-secondary mb-10'>Our cybersecurity solutions include a consulting service to help businesses find the right course of action</p>
