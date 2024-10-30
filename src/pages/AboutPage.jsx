@@ -110,9 +110,9 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <div className='pt-20 pb-10'>
+      {/* <div className='pt-20 pb-10'>
         <Testimonial />
-      </div>
+      </div> */}
       <div>
         <Partners/>
       </div>
