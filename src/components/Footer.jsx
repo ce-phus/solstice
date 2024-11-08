@@ -50,12 +50,7 @@ const Footer = () => {
 
             </p>
     
-            <div className="flex items-center gap-3 mt-6">
-                  
-                  <a href="https://www.linkedin.com/company/solstice-technologies-limited/" target="_blank">
-                    <FaLinkedin className="text-3xl hover:text-gray-500 duration-200 duration:500 transition hover:scale-105" />
-                  </a>
-                </div>
+            
           </div>
 
           {/* Footer links */}
@@ -110,6 +105,12 @@ const Footer = () => {
                 </div>
 
                 {/* social links */}
+                <div className="flex items-center gap-3 mt-6">
+                  
+                  <a href="https://www.linkedin.com/company/solstice-technologies-limited/" target="_blank">
+                    <FaLinkedin className="text-3xl hover:text-gray-500 duration-200 duration:500 transition hover:scale-105" />
+                  </a>
+                </div>
                
               </div>
             </div>
