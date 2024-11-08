@@ -68,6 +68,11 @@ import header2 from "./home-01-card-2.png"
 import header3 from "./home-01-card-3.png"
 import header4 from "./home-01-card-threats-ok.png"
 import contact from "./contact.png"
+import microsoft from "./microsoft.png"
+import partner from "./partnerlogo.png"
+import Terramind from "./Terramind.png"
+import watchguard from "./watchguard.png"
+import barracuda from "./barracuda.png"
 
 export {
     cloud,
@@ -139,5 +144,10 @@ export {
     header2,
     header3,
     header4,
-    contact
+    contact,
+    microsoft,
+    partner,
+    Terramind,
+    watchguard,
+    barracuda
 }

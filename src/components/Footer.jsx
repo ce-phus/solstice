@@ -30,7 +30,6 @@ const FooterLinks = [
 const Footer = () => {
   return (
     <>
-    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
     <div className="">
       <div className="flex items-center justify-center max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 pb-20 pt-5">

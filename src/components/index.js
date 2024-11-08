@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import Statistics from "./Statistics";
 import Testimonial from "./Testimonial";
 
+
 export {
     Navbar,
     GetStarted,
