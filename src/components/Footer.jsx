@@ -21,10 +21,7 @@ const FooterLinks = [
     title: "Contact",
     link: "/contact",
   },
-  {
-    title: "Blog",
-    link: "/#blog",
-  },
+  
 ];
 
 const Footer = () => {
@@ -53,13 +50,12 @@ const Footer = () => {
 
             </p>
     
-            <a
-              href="https://www.youtube.com"
-              target="_blank"
-              className="inline-block bg-primary/90 text-white py-2 px-4 mt-4 text-sm rounded-full"
-            >
-              Visit our YouTube Channel
-            </a>
+            <div className="flex items-center gap-3 mt-6">
+                  
+                  <a href="https://www.linkedin.com/company/solstice-technologies-limited/" target="_blank">
+                    <FaLinkedin className="text-3xl hover:text-gray-500 duration-200 duration:500 transition hover:scale-105" />
+                  </a>
+                </div>
           </div>
 
           {/* Footer links */}
@@ -114,17 +110,7 @@ const Footer = () => {
                 </div>
 
                 {/* social links */}
-                <div className="flex items-center gap-3 mt-6">
-                  <a href="#">
-                    <FaInstagram className="text-3xl hover:text-primary duration-300" />
-                  </a>
-                  <a href="#">
-                    <FaFacebook className="text-3xl hover:text-primary duration-200" />
-                  </a>
-                  <a href="#">
-                    <FaLinkedin className="text-3xl hover:text-primary duration-200" />
-                  </a>
-                </div>
+               
               </div>
             </div>
           </div>
