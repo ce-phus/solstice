@@ -35,35 +35,29 @@ const Partners = () => {
         </div>
         <div className='py-8 mt-24 hidden md:block '>
             <div className=''>
-                <div className='grid grid-cols-5 gap-5 place-items-center opacity-50 bg-gray-800 pb-4'>
+                <div className='grid grid-cols-5 gap-5 place-items-center opacity-50  pb-4'>
                     <img src={partner1}
                     data-aos="slide-right"
                     data-aos-duration="900"
                     // data-aos-once="true"
                     alt='partner1'
-                    className='w-[250px]'/>
+                    className='w-[200px] h-[70px] rounded-lg mt-1'/>
 
                     <img src={partner2}
                     data-aos="slide-right"
                     data-aos-duration="900"
                     // data-aos-once="true"
                     alt='partner1'
-                    className='w-[250px]'/>
+                    className='w-[250px] rounded-lg'/>
 
                     <img src={partner3}
                     alt='partner1'
                     data-aos="slide-right"
                     data-aos-duration="900"
                     // data-aos-once="true"
-                    className='w-[250px]'/>
+                    className='w-[250px] rounded-lg'/>
 
-                    <img src={partner4}
-                    alt='partner1'
-                    data-aos="slide-right"
-                    data-aos-duration="900"
-                    // data-aos-once="true"
-                    className='w-[250px]'/>
-
+                    
                     <img src={microsoft}
                     alt='partner1'
                     data-aos="slide-right"
