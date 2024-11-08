@@ -45,9 +45,12 @@ const Footer = () => {
               alt="logo"
               className="w-[150px]"/>
             </a>
-            <p className="text-gray-600 dark:text-white/70  lg:pr-2 pt-3">
+            <p className="text-gray-600 dark:text-white/70 font-bold text-sm lg:pr-2 pt-3">
             “The computer programmer is a creator of universes for which he alone is the lawgiver. No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or field of battle and to command such unswervingly dutiful actors or troops.”
-― Joseph Weizenbau
+            <p className="mt-1 font-medium text-gray-500">
+            ― Joseph Weizenbaum
+            </p>
+
             </p>
     
             <a
